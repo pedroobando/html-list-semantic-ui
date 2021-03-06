@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Aplicacion react</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script
+      src="https://unpkg.com/react@17/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+
+    <script
+      crossorigin
+      src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"
+    ></script>
+
+    <script
+      crossorigin
+      src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.12.1/polyfill.min.js"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui-react/2.0.3/semantic-ui-react.min.js"
+      integrity="sha512-nrNV1sOcOkb3OYwYbgtPqX8/u9SXtmMRh1fTnOm1m7pX/kre3oB8XwaZeHT46HjDFm2pRMDM7wzw8GSRsZ3Rpg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/babel" crossorigin src="/app/ListaItem.js"></script>
+    <script type="text/babel" crossorigin src="/app/App.js"></script>
+
+    <script type="text/babel">
+      ReactDOM.render(<App />, document.querySelector("#app"));
+    </script>
+  </body>
+</html>
